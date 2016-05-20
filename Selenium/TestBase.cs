@@ -17,7 +17,7 @@ namespace SeleniumTests
         public void SetUp()
         {
             HtmlReport.StartTest(TestContext.CurrentContext.Test.Name);
-            Driver.StartBrowser(BrowserType.Firefox, pageLoadTimeoutSeconds: 30, webDriverWaitSeconds: 30, maximizeWindow: true);
+            Driver.StartBrowser(BrowserType.Chrome);
             Driver.DeleteAllCookies();
         }
 

@@ -1,7 +1,7 @@
 ﻿using Common;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
-using OpenQA.Selenium.Support.UI;
 using System;
 using System.Drawing.Imaging;
 
@@ -40,6 +40,7 @@ namespace SeleniumExtensions
                 case BrowserType.InternetExplorer:
                     break;
                 case BrowserType.Chrome:
+                    Browser = new ChromeDriver();
                     break;
                 default:
                     break;

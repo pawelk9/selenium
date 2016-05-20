@@ -4,7 +4,6 @@ namespace POM.Pages
 {
     public class LoginPageElementMap : BasePageElementMap
     {
-
         public IWebElement UserNameTextBox
         {
             get

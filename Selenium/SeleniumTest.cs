@@ -28,6 +28,7 @@ namespace SeleniumTests
             var mainPage = loginPage.Login("pawel", "jowjow");
 
             mainPage.FillForm("PK", "Pawel", "Kozlowski");
+            mainPage.CheckForm("Pawel");
         }
 
         [Test]
@@ -38,6 +39,7 @@ namespace SeleniumTests
             var loginPage = new LoginPage();
             var mainPage = loginPage.Login("dupa", "jana");
             mainPage.FillForm("DD", "Jan", "Dupowski");
+            mainPage.CheckForm("Pawel");
         }
     }
 

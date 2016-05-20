@@ -1,6 +1,6 @@
 ﻿namespace POM.Pages
 {
-    public class MainPage : BasePage<MainPageElementMap, MainPageValidator>
+    public class MainPage : BasePage<MainPageElementMap>
     {
         public void FillForm(string initials, string firstName, string middleName)
         {

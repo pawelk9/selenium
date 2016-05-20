@@ -1,21 +1,13 @@
 ﻿namespace POM
 {
-    public abstract class BasePage<M> where M : BasePageElementMap, new()
+    public abstract class BasePage<TMap> where TMap : BasePageElementMap, new()
     {
-        protected M Map
+        public TMap Map
         {
             get
             {
-                return new M();
+                return new TMap();
             }
-        }
-    }
-
-    public abstract class BasePage<M, V> : BasePage<M> where M : BasePageElementMap, new() where V : BasePageValidator<M>, new()
-    {
-        public V Validate()
-        {
-            return new V();
         }
     }
 }

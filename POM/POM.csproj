@@ -65,12 +65,11 @@
   <ItemGroup>
     <Compile Include="BasePage.cs" />
     <Compile Include="BasePageElementMap.cs" />
-    <Compile Include="BasePageValidator.cs" />
     <Compile Include="Pages\LoginPage.cs" />
     <Compile Include="Pages\LoginPageElementMap.cs" />
     <Compile Include="Pages\MainPage.cs" />
     <Compile Include="Pages\MainPageElementMap.cs" />
-    <Compile Include="Pages\MainPageValidator.cs" />
+    <Compile Include="Pages\MainPageAsserter.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>

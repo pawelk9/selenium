@@ -1,5 +1,4 @@
 ﻿using Common;
-using SeleniumExtensions;
 
 namespace POM.Pages
 {
@@ -12,8 +11,6 @@ namespace POM.Pages
             Map.UserNameTextBox.SendKeys(username);
             Map.PasswordTextBox.SendKeys(password);
             Map.LoginButon.Submit();
-
-            LoggerHelper.Logger.Debug(Map.isDupaAvailable());
 
             return new MainPage();
         }

@@ -10,7 +10,7 @@ using SeleniumExtensions;
     4. SUT
 
     - design smoke tests first, best ROI
-    - design freamework along the smoke tests
+    - design framework along the smoke tests
 
 */
 

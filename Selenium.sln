@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumExtensions", "SeleniumExtensions\SeleniumExtensions.csproj", "{6512C889-ABA3-4F55-A0C6-5C4B88B5E3C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specflow", "Specflow\Specflow.csproj", "{9B64587C-0341-4E19-B5F6-0124CF775E0F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,10 +39,6 @@ Global
 		{6512C889-ABA3-4F55-A0C6-5C4B88B5E3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6512C889-ABA3-4F55-A0C6-5C4B88B5E3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6512C889-ABA3-4F55-A0C6-5C4B88B5E3C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9B64587C-0341-4E19-B5F6-0124CF775E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B64587C-0341-4E19-B5F6-0124CF775E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B64587C-0341-4E19-B5F6-0124CF775E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B64587C-0341-4E19-B5F6-0124CF775E0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

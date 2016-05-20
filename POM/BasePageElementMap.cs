@@ -12,7 +12,7 @@ namespace POM
         public BasePageElementMap()
         {
             browser = Driver.Browser;
-            browserWait = Driver.BrowserWait;
+            browserWait = DriverWait.BrowserWait;
         }
 
         public void SwitchToDefaultContent()

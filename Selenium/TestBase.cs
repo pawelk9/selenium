@@ -17,7 +17,7 @@ namespace SeleniumTests
         public void SetUp()
         {
             HtmlReport.StartTest(TestContext.CurrentContext.Test.Name);
-            Driver.StartBrowser(BrowserType.Firefox);
+            Driver.StartBrowser(BrowserType.Firefox, 30, 30, true);
             Driver.DeleteAllCookies();
         }
 

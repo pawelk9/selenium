@@ -1,17 +1,28 @@
-2016-05-20 11:45:10,035 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > Common.LoggerHelper.InfoAll ] - INFO - Start Firefox browser
-2016-05-20 11:45:14,318 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.Driver.SetPageLoadTimeout ] - DEBUG - Page load timeout set to: 10
-2016-05-20 11:45:14,341 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.Driver.MaximizeWindow ] - DEBUG - Maximize window
-2016-05-20 11:45:14,410 [ Worker#STA_NP ] [ SeleniumTests.TestBase.SetUp > SeleniumExtensions.Driver.DeleteAllCookies ] - DEBUG - Delete all cookies
-2016-05-20 11:45:14,475 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.Navigate > Common.LoggerHelper.InfoAll ] - INFO - Navigate to 'http://executeautomation.com/demosite/Login.html'
-2016-05-20 11:45:16,411 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StopBrowser > Common.LoggerHelper.InfoAll ] - INFO - Close browser
-2016-05-20 11:45:17,992 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - INFO - Test status: Passed
-2016-05-20 11:45:18,008 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > Common.LoggerHelper.InfoAll ] - INFO - Start Firefox browser
-2016-05-20 11:45:20,833 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.Driver.SetPageLoadTimeout ] - DEBUG - Page load timeout set to: 10
-2016-05-20 11:45:20,868 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.Driver.MaximizeWindow ] - DEBUG - Maximize window
-2016-05-20 11:45:20,942 [ Worker#STA_NP ] [ SeleniumTests.TestBase.SetUp > SeleniumExtensions.Driver.DeleteAllCookies ] - DEBUG - Delete all cookies
-2016-05-20 11:45:20,963 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.Navigate > Common.LoggerHelper.InfoAll ] - INFO - Navigate to 'http://executeautomation.com/demosite/Login.html'
-2016-05-20 11:45:22,884 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StopBrowser > Common.LoggerHelper.InfoAll ] - INFO - Close browser
-2016-05-20 11:45:24,442 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - INFO - Test status: Failed
-2016-05-20 11:45:24,443 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - ERROR - Stacktrace: at POM.Pages.MainPageAsserter.CheckForm(MainPage page, String expected) in C:\Users\Pawel\Desktop\selenium\POM\Pages\MainPageAsserter.cs:line 9
-at SeleniumTests.SeleniumTest.DemoTest2() in C:\Users\Pawel\Desktop\selenium\Selenium\SeleniumTest.cs:line 42
-
+2016-05-20 13:47:14,218 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > Common.LoggerHelper.InfoAll ] - INFO - Start Firefox browser
+2016-05-20 13:47:18,423 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.DriverWait.SetPageLoadTimeout ] - DEBUG - Page load timeout set to: 30
+2016-05-20 13:47:18,444 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.DriverWait.Init ] - DEBUG - WebDriverWait set to: 30
+2016-05-20 13:47:18,447 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.Driver.MaximizeWindow ] - DEBUG - Maximize window
+2016-05-20 13:47:18,516 [ Worker#STA_NP ] [ SeleniumTests.TestBase.SetUp > SeleniumExtensions.Driver.DeleteAllCookies ] - DEBUG - Delete all cookies
+2016-05-20 13:47:18,593 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.Navigate > Common.LoggerHelper.InfoAll ] - INFO - Navigate to 'http://executeautomation.com/demosite/Login.html'
+2016-05-20 13:47:48,672 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StopBrowser > Common.LoggerHelper.InfoAll ] - INFO - Close browser
+2016-05-20 13:47:50,241 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - INFO - Test status: Failed
+2016-05-20 13:47:50,243 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - ERROR - Stacktrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)
+   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)
+   at SeleniumExtensions.Driver.Navigate(String url) in C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\Driver.cs:line 74
+   at SeleniumTests.SeleniumTest.DemoTest() in C:\Users\Pawel\Desktop\selenium\Selenium\SeleniumTest.cs:line 25
+2016-05-20 13:47:50,260 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > Common.LoggerHelper.InfoAll ] - INFO - Start Firefox browser
+2016-05-20 13:47:52,932 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.DriverWait.SetPageLoadTimeout ] - DEBUG - Page load timeout set to: 30
+2016-05-20 13:47:52,971 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.DriverWait.Init ] - DEBUG - WebDriverWait set to: 30
+2016-05-20 13:47:52,976 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.Driver.MaximizeWindow ] - DEBUG - Maximize window
+2016-05-20 13:47:53,047 [ Worker#STA_NP ] [ SeleniumTests.TestBase.SetUp > SeleniumExtensions.Driver.DeleteAllCookies ] - DEBUG - Delete all cookies
+2016-05-20 13:47:53,089 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.Navigate > Common.LoggerHelper.InfoAll ] - INFO - Navigate to 'http://executeautomation.com/demosite/Login.html'
+2016-05-20 13:48:23,121 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StopBrowser > Common.LoggerHelper.InfoAll ] - INFO - Close browser
+2016-05-20 13:48:24,692 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - INFO - Test status: Failed
+2016-05-20 13:48:24,693 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - ERROR - Stacktrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)
+   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)
+   at SeleniumExtensions.Driver.Navigate(String url) in C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\Driver.cs:line 74
+   at SeleniumTests.SeleniumTest.DemoTest2() in C:\Users\Pawel\Desktop\selenium\Selenium\SeleniumTest.cs:line 37

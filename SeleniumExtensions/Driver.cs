@@ -27,25 +27,7 @@ namespace SeleniumExtensions
             }
         }
 
-        private static WebDriverWait browserWait;
-
-        public static WebDriverWait BrowserWait
-        {
-            get
-            {
-                if (browserWait == null || browser == null)
-                {
-                    throw new NullReferenceException("The WebDriver browser wait instance was not initialized. You should first call the method StartBrowser.");
-                }
-                return browserWait;
-            }
-            private set
-            {
-                browserWait = value;
-            }
-        }
-
-        public static void StartBrowser(BrowserType browserType = BrowserType.Firefox, int pageLoadTimeoutSeconds = 10, int webDriverWaitSeconds = 30, bool maximizeWindow = true)
+        public static void StartBrowser(BrowserType browserType = BrowserType.Firefox, int pageLoadTimeoutSeconds = 30, int webDriverWaitSeconds = 30, bool maximizeWindow = true)
         {
             HtmlReport.SetEnvironmentInfo("Browser", browserType.ToString());
             LoggerHelper.InfoAll(string.Format("Start {0} browser", browserType.ToString()));
@@ -63,8 +45,8 @@ namespace SeleniumExtensions
                     break;
             }
 
-            SetPageLoadTimeout(pageLoadTimeoutSeconds);
-            InitWebDriverWait(webDriverWaitSeconds);
+            DriverWait.SetPageLoadTimeout(pageLoadTimeoutSeconds);
+            DriverWait.Init(webDriverWaitSeconds);
 
             if (maximizeWindow)
             {
@@ -77,30 +59,7 @@ namespace SeleniumExtensions
             LoggerHelper.InfoAll("Close browser");
             Browser.Quit();
             Browser = null;
-            BrowserWait = null;
-        }
-
-        public static void InitWebDriverWait(int seconds)
-        {
-            LoggerHelper.Logger.DebugFormat("WebDriverWait set to: {0}", seconds);
-            BrowserWait = new WebDriverWait(Browser, TimeSpan.FromSeconds(seconds));
-        }
-
-        public static void SetPageLoadTimeout(int seconds)
-        {
-            LoggerHelper.Logger.DebugFormat("Page load timeout set to: {0}", seconds);
-            Browser.Manage().Timeouts().SetPageLoadTimeout(new TimeSpan(0, 0, seconds));
-        }
-
-        public static void SetScriptTimeout(int seconds)
-        {
-            LoggerHelper.Logger.DebugFormat("Script timeout set to: {0}", seconds);
-            Browser.Manage().Timeouts().SetScriptTimeout(TimeSpan.FromSeconds(seconds));
-        }
-
-        public static void SetImplicitWait(int seconds)
-        {
-            Browser.Manage().Timeouts().ImplicitlyWait(new TimeSpan(0, 0, seconds));
+            DriverWait.BrowserWait = null;
         }
 
         public static void MaximizeWindow()

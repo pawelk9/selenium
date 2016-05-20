@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="BrowserTypes.cs" />
     <Compile Include="Driver.cs" />
+    <Compile Include="DriverWait.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

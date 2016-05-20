@@ -38,3 +38,5 @@ C:\Users\Pawel\Desktop\selenium\POM\bin\Release\InfoPanel.pdb
 C:\Users\Pawel\Desktop\selenium\POM\obj\Release\POM.csprojResolveAssemblyReference.cache
 C:\Users\Pawel\Desktop\selenium\POM\obj\Release\POM.dll
 C:\Users\Pawel\Desktop\selenium\POM\obj\Release\POM.pdb
+C:\Users\Pawel\Desktop\selenium\POM\bin\Release\nunit.framework.dll
+C:\Users\Pawel\Desktop\selenium\POM\bin\Release\nunit.framework.xml

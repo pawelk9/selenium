@@ -1,23 +1,48 @@
 ﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Support.PageObjects;
 
 namespace POM.Pages
 {
-    public partial class MainPage : BasePage
+    public class MainPageElementMap : BasePageElementMap
     {
-        [FindsBy(How = How.Id, Using = "TitleId")]
-        public IWebElement TitleId { get; set; }
 
-        [FindsBy(How = How.Name, Using = "Initial")]
-        public IWebElement InitialTextBox { get; set; }
+        public IWebElement TitleId
+        {
+            get
+            {
+                return browser.FindElement(By.Id("TitleId"));
+            }
+        }
 
-        [FindsBy(How = How.Name, Using = "FirstName")]
-        public IWebElement FirstNameTextBox { get; set; }
+        public IWebElement InitialTextBox
+        {
+            get
+            {
+                return browser.FindElement(By.Name("Initial"));
+            }
+        }
 
-        [FindsBy(How = How.Name, Using = "MiddleName")]
-        public IWebElement MiddleNameTextBox { get; set; }
+        public IWebElement FirstNameTextBox
+        {
+            get
+            {
+                return browser.FindElement(By.Name("FirstName"));
+            }
+        }
 
-        [FindsBy(How = How.Name, Using = "Save")]
-        public IWebElement SaveButton { get; set; }
+        public IWebElement MiddleNameTextBox
+        {
+            get
+            {
+                return browser.FindElement(By.Name("MiddleName"));
+            }
+        }
+
+        public IWebElement SaveButton
+        {
+            get
+            {
+                return browser.FindElement(By.Name("Save"));
+            }
+        }
     }
 }

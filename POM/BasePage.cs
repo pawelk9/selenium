@@ -1,17 +1,21 @@
-﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Support.PageObjects;
-using SeleniumExtensions;
-
-namespace POM
+﻿namespace POM
 {
-    public abstract class BasePage
+    public abstract class BasePage<M> where M : BasePageElementMap, new()
     {
-        private IWebDriver browser;
-
-        public BasePage()
+        protected M Map
         {
-            browser = Driver.Browser;
-            PageFactory.InitElements(browser, this);
+            get
+            {
+                return new M();
+            }
+        }
+    }
+
+    public abstract class BasePage<M, V> : BasePage<M> where M : BasePageElementMap, new() where V : BasePageValidator<M>, new()
+    {
+        public V Validate()
+        {
+            return new V();
         }
     }
 }

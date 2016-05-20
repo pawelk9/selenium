@@ -11,5 +11,10 @@ namespace POM
         {
             browser = Driver.Browser;
         }
+
+        public void SwitchToDefaultContent()
+        {
+            browser.SwitchTo().DefaultContent();
+        }
     }
 }

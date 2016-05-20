@@ -1,14 +1,10 @@
-2016-05-20 10:12:54,925 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > Common.LoggerHelper.InfoAll ] - INFO - Start Firefox browser
-2016-05-20 10:12:59,562 [ Worker#STA_NP ] [ SeleniumTests.TestBase.SetUp > SeleniumExtensions.Driver.DeleteAllCookies ] - DEBUG - Delete all cookies
-2016-05-20 10:12:59,646 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.Navigate > Common.LoggerHelper.InfoAll ] - INFO - Navigate to 'http://executeautomation.com/demosite/Login.html'
-2016-05-20 10:13:00,820 [ Worker#STA_NP ] [ POM.Pages.LoginPage.Login > Common.LoggerHelper.InfoAll ] - INFO - Type 'pawel' and 'jowjow' and login
-2016-05-20 10:13:01,396 [ Worker#STA_NP ] [ POM.Pages.MainPage.FillForm > Common.LoggerHelper.InfoAll ] - INFO - Fill form and click 'Save' button
-2016-05-20 10:13:01,690 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StopBrowser > Common.LoggerHelper.InfoAll ] - INFO - Close browser
-2016-05-20 10:13:03,262 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - INFO - Test status: Passed
-2016-05-20 10:13:03,279 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > Common.LoggerHelper.InfoAll ] - INFO - Start Firefox browser
-2016-05-20 10:13:06,176 [ Worker#STA_NP ] [ SeleniumTests.TestBase.SetUp > SeleniumExtensions.Driver.DeleteAllCookies ] - DEBUG - Delete all cookies
-2016-05-20 10:13:06,236 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.Navigate > Common.LoggerHelper.InfoAll ] - INFO - Navigate to 'http://executeautomation.com/demosite/Login.html'
-2016-05-20 10:13:07,394 [ Worker#STA_NP ] [ POM.Pages.LoginPage.Login > Common.LoggerHelper.InfoAll ] - INFO - Type 'dupa' and 'jana' and login
-2016-05-20 10:13:07,908 [ Worker#STA_NP ] [ POM.Pages.MainPage.FillForm > Common.LoggerHelper.InfoAll ] - INFO - Fill form and click 'Save' button
-2016-05-20 10:13:08,168 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StopBrowser > Common.LoggerHelper.InfoAll ] - INFO - Close browser
-2016-05-20 10:13:09,726 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - INFO - Test status: Passed
+2016-05-20 10:56:52,184 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > Common.LoggerHelper.InfoAll ] - INFO - Start Firefox browser
+2016-05-20 10:56:56,618 [ Worker#STA_NP ] [ SeleniumTests.TestBase.SetUp > SeleniumExtensions.Driver.DeleteAllCookies ] - DEBUG - Delete all cookies
+2016-05-20 10:56:56,696 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.Navigate > Common.LoggerHelper.InfoAll ] - INFO - Navigate to 'http://executeautomation.com/demosite/Login.html'
+2016-05-20 10:56:58,617 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StopBrowser > Common.LoggerHelper.InfoAll ] - INFO - Close browser
+2016-05-20 10:57:00,188 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - INFO - Test status: Passed
+2016-05-20 10:57:00,225 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > Common.LoggerHelper.InfoAll ] - INFO - Start Firefox browser
+2016-05-20 10:57:03,070 [ Worker#STA_NP ] [ SeleniumTests.TestBase.SetUp > SeleniumExtensions.Driver.DeleteAllCookies ] - DEBUG - Delete all cookies
+2016-05-20 10:57:03,103 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.Navigate > Common.LoggerHelper.InfoAll ] - INFO - Navigate to 'http://executeautomation.com/demosite/Login.html'
+2016-05-20 10:57:04,962 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StopBrowser > Common.LoggerHelper.InfoAll ] - INFO - Close browser
+2016-05-20 10:57:06,519 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - INFO - Test status: Passed

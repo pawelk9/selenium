@@ -102,5 +102,24 @@ namespace SeleniumExtensions
             }
             return BrowserWait.Until(drv => (drv.FindElements(by).Count > 0) ? drv.FindElements(by) : null);
         }
+
+        public static bool IsElementDisplayed(this IWebDriver driver, By by)
+        {
+            bool isDisplayed = BrowserWait.Until((d) =>
+            {
+                try
+                {
+                    if (d.FindElement(by).Displayed)
+                        return true;
+                    else
+                        return false;
+                }
+                catch (NoSuchElementException)
+                {
+                    return false;
+                }
+            });
+            return isDisplayed;
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace POM.Pages
         {
             get
             {
-                return browser.FindElementWait(By.Name("Dupa"));
+                return browser.FindElementWait(By.Name("UserName"));
             }
         }
 
@@ -29,6 +29,11 @@ namespace POM.Pages
             {
                 return browser.FindElement(By.Name("Login"));
             }
+        }
+
+        public bool isDupaAvailable()
+        {
+            return browser.IsElementDisplayed(By.Id("dupa"));
         }
     }
 }

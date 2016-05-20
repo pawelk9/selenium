@@ -45,7 +45,7 @@ namespace SeleniumExtensions
             }
         }
 
-        public static void StartBrowser(BrowserType browserType = BrowserType.Firefox, int pageLoadTimeout = 10, int waitTimeout = 30, bool maximizeWindow = true)
+        public static void StartBrowser(BrowserType browserType = BrowserType.Firefox, int pageLoadTimeoutSeconds = 10, int webDriverWaitSeconds = 30, bool maximizeWindow = true)
         {
             HtmlReport.SetEnvironmentInfo("Browser", browserType.ToString());
             LoggerHelper.InfoAll(string.Format("Start {0} browser", browserType.ToString()));
@@ -63,12 +63,12 @@ namespace SeleniumExtensions
                     break;
             }
 
-            Browser.Manage().Timeouts().SetPageLoadTimeout(new TimeSpan(0, 0, pageLoadTimeout));
-            BrowserWait = new WebDriverWait(Browser, TimeSpan.FromSeconds(waitTimeout));
+            SetPageLoadTimeout(pageLoadTimeoutSeconds);
+            InitWebDriverWait(webDriverWaitSeconds);
 
             if (maximizeWindow)
             {
-                Browser.Manage().Window.Maximize();
+                MaximizeWindow();
             }
         }
 
@@ -80,6 +80,29 @@ namespace SeleniumExtensions
             BrowserWait = null;
         }
 
+        public static void InitWebDriverWait(int seconds)
+        {
+            LoggerHelper.Logger.DebugFormat("WebDriverWait set to: {0}", seconds);
+            BrowserWait = new WebDriverWait(Browser, TimeSpan.FromSeconds(seconds));
+        }
+
+        public static void SetPageLoadTimeout(int seconds)
+        {
+            LoggerHelper.Logger.DebugFormat("Page load timeout set to: {0}", seconds);
+            Browser.Manage().Timeouts().SetPageLoadTimeout(new TimeSpan(0, 0, seconds));
+        }
+
+        public static void SetImplicitWait(int seconds)
+        {
+            Browser.Manage().Timeouts().ImplicitlyWait(new TimeSpan(0, 0, seconds));
+        }
+
+        public static void MaximizeWindow()
+        {
+            LoggerHelper.Logger.Debug("Maximize window");
+            Browser.Manage().Window.Maximize();
+        }
+
         public static void Navigate(string url)
         {
             LoggerHelper.InfoAll(string.Format("Navigate to '{0}'", url));
@@ -88,6 +111,7 @@ namespace SeleniumExtensions
 
         public static void TakeFullScreenshot(string filename)
         {
+            //does not work
             Screenshot screenshot = ((ITakesScreenshot)Browser).GetScreenshot();
             screenshot.SaveAsFile(filename, ImageFormat.Png);
             throw new NotImplementedException();
@@ -123,17 +147,5 @@ namespace SeleniumExtensions
         {
             Browser.Manage().Cookies.DeleteCookieNamed(cookieName);
         }
-
-        private static void SetImplicitWait(int seconds)
-        {
-            Browser.Manage().Timeouts().ImplicitlyWait(new TimeSpan(0, 0, seconds));
-        }
-    }
-
-    public enum BrowserType
-    {
-        Firefox,
-        InternetExplorer,
-        Chrome
     }
 }

@@ -1,7 +1,6 @@
 ﻿using Common;
 using NUnit.Framework;
 using SeleniumExtensions;
-using System;
 
 namespace SeleniumTests
 {

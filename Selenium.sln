@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTests", "Selenium\SeleniumTests.csproj", "{37D55D8F-74F1-49E5-9626-8C5757E6564A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POM", "POM\POM.csproj", "{7D36CBF0-6375-40FA-B482-718E56DDCD56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoPanel", "InfoPanel\InfoPanel.csproj", "{297B7B5B-36E4-46E4-8BFA-1DB52A16AA70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{F75FCC12-D36C-4B90-BF82-6192CF6C1963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumExtensions", "SeleniumExtensions\SeleniumExtensions.csproj", "{6512C889-ABA3-4F55-A0C6-5C4B88B5E3C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specflow", "Specflow\Specflow.csproj", "{9B64587C-0341-4E19-B5F6-0124CF775E0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37D55D8F-74F1-49E5-9626-8C5757E6564A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D55D8F-74F1-49E5-9626-8C5757E6564A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D55D8F-74F1-49E5-9626-8C5757E6564A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D55D8F-74F1-49E5-9626-8C5757E6564A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D36CBF0-6375-40FA-B482-718E56DDCD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D36CBF0-6375-40FA-B482-718E56DDCD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D36CBF0-6375-40FA-B482-718E56DDCD56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D36CBF0-6375-40FA-B482-718E56DDCD56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{297B7B5B-36E4-46E4-8BFA-1DB52A16AA70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297B7B5B-36E4-46E4-8BFA-1DB52A16AA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297B7B5B-36E4-46E4-8BFA-1DB52A16AA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297B7B5B-36E4-46E4-8BFA-1DB52A16AA70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F75FCC12-D36C-4B90-BF82-6192CF6C1963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75FCC12-D36C-4B90-BF82-6192CF6C1963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F75FCC12-D36C-4B90-BF82-6192CF6C1963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75FCC12-D36C-4B90-BF82-6192CF6C1963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6512C889-ABA3-4F55-A0C6-5C4B88B5E3C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6512C889-ABA3-4F55-A0C6-5C4B88B5E3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6512C889-ABA3-4F55-A0C6-5C4B88B5E3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6512C889-ABA3-4F55-A0C6-5C4B88B5E3C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B64587C-0341-4E19-B5F6-0124CF775E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B64587C-0341-4E19-B5F6-0124CF775E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B64587C-0341-4E19-B5F6-0124CF775E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B64587C-0341-4E19-B5F6-0124CF775E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+c:\users\pawel\documents\visual studio 2015\Projects\Selenium\Selenium\bin\Debug\Selenium.dll
+c:\users\pawel\documents\visual studio 2015\Projects\Selenium\Selenium\bin\Debug\Selenium.pdb
+c:\users\pawel\documents\visual studio 2015\Projects\Selenium\Selenium\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\pawel\documents\visual studio 2015\Projects\Selenium\Selenium\bin\Debug\nunit.framework.dll
+c:\users\pawel\documents\visual studio 2015\Projects\Selenium\Selenium\bin\Debug\WebDriver.dll
+c:\users\pawel\documents\visual studio 2015\Projects\Selenium\Selenium\bin\Debug\WebDriver.Support.dll
+c:\users\pawel\documents\visual studio 2015\Projects\Selenium\Selenium\bin\Debug\nunit.framework.xml
+c:\users\pawel\documents\visual studio 2015\Projects\Selenium\Selenium\bin\Debug\WebDriver.xml
+c:\users\pawel\documents\visual studio 2015\Projects\Selenium\Selenium\bin\Debug\WebDriver.Support.xml
+c:\users\pawel\documents\visual studio 2015\Projects\Selenium\Selenium\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+c:\users\pawel\documents\visual studio 2015\Projects\Selenium\Selenium\obj\Debug\Selenium.csprojResolveAssemblyReference.cache
+c:\users\pawel\documents\visual studio 2015\Projects\Selenium\Selenium\obj\Debug\Selenium.dll
+c:\users\pawel\documents\visual studio 2015\Projects\Selenium\Selenium\obj\Debug\Selenium.pdb
+c:\users\pawel\documents\visual studio 2015\Projects\Selenium\Selenium\bin\Debug\POM.dll
+c:\users\pawel\documents\visual studio 2015\Projects\Selenium\Selenium\bin\Debug\POM.pdb

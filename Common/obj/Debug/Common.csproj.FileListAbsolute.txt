@@ -9,3 +9,14 @@ C:\Users\Pawel\documents\visual studio 2015\Projects\Selenium\Common\bin\Debug\I
 C:\Users\Pawel\documents\visual studio 2015\Projects\Selenium\Common\bin\Debug\InfoPanel.pdb
 C:\Users\Pawel\Documents\Visual Studio 2015\Projects\Selenium\Common\bin\Debug\RelevantCodes.ExtentReports.dll
 C:\Users\Pawel\Documents\Visual Studio 2015\Projects\Selenium\Common\bin\Debug\extentConfig.xml
+C:\Users\Pawel\Desktop\selenium\Common\bin\Debug\extentConfig.xml
+C:\Users\Pawel\Desktop\selenium\Common\bin\Debug\Common.dll
+C:\Users\Pawel\Desktop\selenium\Common\bin\Debug\Common.pdb
+C:\Users\Pawel\Desktop\selenium\Common\bin\Debug\InfoPanel.dll
+C:\Users\Pawel\Desktop\selenium\Common\bin\Debug\log4net.dll
+C:\Users\Pawel\Desktop\selenium\Common\bin\Debug\RelevantCodes.ExtentReports.dll
+C:\Users\Pawel\Desktop\selenium\Common\bin\Debug\InfoPanel.pdb
+C:\Users\Pawel\Desktop\selenium\Common\bin\Debug\log4net.xml
+C:\Users\Pawel\Desktop\selenium\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Pawel\Desktop\selenium\Common\obj\Debug\Common.dll
+C:\Users\Pawel\Desktop\selenium\Common\obj\Debug\Common.pdb

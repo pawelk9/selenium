@@ -18,3 +18,23 @@ C:\Users\Pawel\documents\visual studio 2015\Projects\Selenium\POM\bin\Debug\Sele
 C:\Users\Pawel\documents\visual studio 2015\Projects\Selenium\POM\bin\Debug\SeleniumExtensions.pdb
 C:\Users\Pawel\Documents\Visual Studio 2015\Projects\Selenium\POM\bin\Debug\RelevantCodes.ExtentReports.dll
 C:\Users\Pawel\Documents\Visual Studio 2015\Projects\Selenium\POM\bin\Debug\extentConfig.xml
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\extentConfig.xml
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\POM.dll.config
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\POM.dll
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\POM.pdb
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\Common.dll
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\log4net.dll
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\SeleniumExtensions.dll
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\WebDriver.dll
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\WebDriver.Support.dll
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\RelevantCodes.ExtentReports.dll
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\InfoPanel.dll
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\Common.pdb
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\SeleniumExtensions.pdb
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\log4net.xml
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\WebDriver.xml
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\WebDriver.Support.xml
+C:\Users\Pawel\Desktop\selenium\POM\bin\Debug\InfoPanel.pdb
+C:\Users\Pawel\Desktop\selenium\POM\obj\Debug\POM.csprojResolveAssemblyReference.cache
+C:\Users\Pawel\Desktop\selenium\POM\obj\Debug\POM.dll
+C:\Users\Pawel\Desktop\selenium\POM\obj\Debug\POM.pdb

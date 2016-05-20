@@ -21,3 +21,26 @@ C:\Users\Pawel\Documents\Visual Studio 2015\Projects\Selenium\Specflow\bin\Debug
 C:\Users\Pawel\Documents\Visual Studio 2015\Projects\Selenium\Specflow\obj\Debug\Specflow.csprojResolveAssemblyReference.cache
 C:\Users\Pawel\Documents\Visual Studio 2015\Projects\Selenium\Specflow\obj\Debug\Specflow.dll
 C:\Users\Pawel\Documents\Visual Studio 2015\Projects\Selenium\Specflow\obj\Debug\Specflow.pdb
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\extentConfig.xml
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\Specflow.dll
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\Specflow.pdb
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\Common.dll
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\InfoPanel.dll
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\nunit.framework.dll
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\POM.dll
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\SeleniumExtensions.dll
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\log4net.dll
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\RelevantCodes.ExtentReports.dll
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\WebDriver.dll
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\WebDriver.Support.dll
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\Common.pdb
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\InfoPanel.pdb
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\POM.pdb
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\SeleniumExtensions.pdb
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\nunit.framework.xml
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\log4net.xml
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\WebDriver.xml
+C:\Users\Pawel\Desktop\selenium\Specflow\bin\Debug\WebDriver.Support.xml
+C:\Users\Pawel\Desktop\selenium\Specflow\obj\Debug\Specflow.csprojResolveAssemblyReference.cache
+C:\Users\Pawel\Desktop\selenium\Specflow\obj\Debug\Specflow.dll
+C:\Users\Pawel\Desktop\selenium\Specflow\obj\Debug\Specflow.pdb

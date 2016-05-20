@@ -7,3 +7,12 @@ C:\Users\Pawel\documents\visual studio 2015\Projects\Selenium\InfoPanel\obj\Debu
 C:\Users\Pawel\documents\visual studio 2015\Projects\Selenium\InfoPanel\obj\Debug\InfoPanel.dll
 C:\Users\Pawel\documents\visual studio 2015\Projects\Selenium\InfoPanel\obj\Debug\InfoPanel.pdb
 C:\Users\Pawel\documents\visual studio 2015\Projects\Selenium\InfoPanel\obj\Debug\InfoPanel.csprojResolveAssemblyReference.cache
+C:\Users\Pawel\Desktop\selenium\InfoPanel\bin\Debug\InfoPanel.dll.config
+C:\Users\Pawel\Desktop\selenium\InfoPanel\bin\Debug\InfoPanel.dll
+C:\Users\Pawel\Desktop\selenium\InfoPanel\bin\Debug\InfoPanel.pdb
+C:\Users\Pawel\Desktop\selenium\InfoPanel\obj\Debug\InfoPanel.csprojResolveAssemblyReference.cache
+C:\Users\Pawel\Desktop\selenium\InfoPanel\obj\Debug\InfoPanel.Panel.resources
+C:\Users\Pawel\Desktop\selenium\InfoPanel\obj\Debug\InfoPanel.Properties.Resources.resources
+C:\Users\Pawel\Desktop\selenium\InfoPanel\obj\Debug\InfoPanel.csproj.GenerateResource.Cache
+C:\Users\Pawel\Desktop\selenium\InfoPanel\obj\Debug\InfoPanel.dll
+C:\Users\Pawel\Desktop\selenium\InfoPanel\obj\Debug\InfoPanel.pdb

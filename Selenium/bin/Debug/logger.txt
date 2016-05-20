@@ -1,7 +1,0 @@
-2016-05-20 16:10:47,183 [ 9 ] [ SeleniumExtensions.Driver.StartBrowser > Common.LoggerHelper.InfoAll ] - INFO - Start Firefox browser
-2016-05-20 16:10:51,431 [ 9 ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.DriverWait.SetPageLoadTimeout ] - DEBUG - Page load timeout set to: 30
-2016-05-20 16:10:51,460 [ 9 ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.DriverWait.Init ] - DEBUG - WebDriverWait set to: 30
-2016-05-20 16:10:51,466 [ 9 ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.Driver.MaximizeWindow ] - DEBUG - Maximize window
-2016-05-20 16:10:51,525 [ 9 ] [ SeleniumTests.TestBase.SetUp > SeleniumExtensions.Driver.DeleteAllCookies ] - DEBUG - Delete all cookies
-2016-05-20 16:10:51,617 [ 9 ] [ SeleniumExtensions.Driver.Navigate > Common.LoggerHelper.InfoAll ] - INFO - Navigate to 'http://executeautomation.com/demosite/Login.html'
-2016-05-20 16:10:52,676 [ 9 ] [ POM.Pages.LoginPage.Login > Common.LoggerHelper.InfoAll ] - INFO - Login into system

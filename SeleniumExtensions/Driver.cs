@@ -92,6 +92,12 @@ namespace SeleniumExtensions
             Browser.Manage().Timeouts().SetPageLoadTimeout(new TimeSpan(0, 0, seconds));
         }
 
+        public static void SetScriptTimeout(int seconds)
+        {
+            LoggerHelper.Logger.DebugFormat("Script timeout set to: {0}", seconds);
+            Browser.Manage().Timeouts().SetScriptTimeout(TimeSpan.FromSeconds(seconds));
+        }
+
         public static void SetImplicitWait(int seconds)
         {
             Browser.Manage().Timeouts().ImplicitlyWait(new TimeSpan(0, 0, seconds));

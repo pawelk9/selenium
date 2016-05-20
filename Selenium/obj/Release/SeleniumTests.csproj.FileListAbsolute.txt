@@ -23,3 +23,28 @@ C:\Users\Pawel\documents\visual studio 2015\Projects\Selenium\Selenium\bin\Relea
 C:\Users\Pawel\documents\visual studio 2015\Projects\Selenium\Selenium\bin\Release\SeleniumExtensions.dll
 C:\Users\Pawel\documents\visual studio 2015\Projects\Selenium\Selenium\bin\Release\SeleniumExtensions.pdb
 C:\Users\Pawel\Documents\Visual Studio 2015\Projects\Selenium\Selenium\bin\Release\extentConfig.xml
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\extentConfig.xml
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\SeleniumTests.dll.config
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\SeleniumTests.dll
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\SeleniumTests.pdb
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\Common.dll
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\InfoPanel.dll
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\log4net.dll
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\nunit.framework.dll
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\POM.dll
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\SeleniumExtensions.dll
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\WebDriver.dll
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\WebDriver.Support.dll
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\Common.pdb
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\InfoPanel.pdb
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\POM.pdb
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\SeleniumExtensions.pdb
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\log4net.xml
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\nunit.framework.xml
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\WebDriver.xml
+C:\Users\Pawel\Desktop\selenium\Selenium\bin\Release\WebDriver.Support.xml
+C:\Users\Pawel\Desktop\selenium\Selenium\obj\Release\SeleniumTests.csprojResolveAssemblyReference.cache
+C:\Users\Pawel\Desktop\selenium\Selenium\obj\Release\SeleniumTests.dll
+C:\Users\Pawel\Desktop\selenium\Selenium\obj\Release\SeleniumTests.pdb

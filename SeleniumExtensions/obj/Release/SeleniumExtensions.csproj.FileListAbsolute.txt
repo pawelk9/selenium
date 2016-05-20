@@ -15,3 +15,20 @@ C:\Users\Pawel\documents\visual studio 2015\Projects\Selenium\SeleniumExtensions
 C:\Users\Pawel\documents\visual studio 2015\Projects\Selenium\SeleniumExtensions\obj\Release\SeleniumExtensions.pdb
 C:\Users\Pawel\Documents\Visual Studio 2015\Projects\Selenium\SeleniumExtensions\bin\Release\RelevantCodes.ExtentReports.dll
 C:\Users\Pawel\Documents\Visual Studio 2015\Projects\Selenium\SeleniumExtensions\bin\Release\extentConfig.xml
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\bin\Release\extentConfig.xml
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\bin\Release\SeleniumExtensions.dll
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\bin\Release\SeleniumExtensions.pdb
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\bin\Release\Common.dll
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\bin\Release\log4net.dll
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\bin\Release\WebDriver.dll
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\bin\Release\WebDriver.Support.dll
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\bin\Release\RelevantCodes.ExtentReports.dll
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\bin\Release\InfoPanel.dll
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\bin\Release\Common.pdb
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\bin\Release\log4net.xml
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\bin\Release\WebDriver.xml
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\bin\Release\WebDriver.Support.xml
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\bin\Release\InfoPanel.pdb
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\obj\Release\SeleniumExtensions.csprojResolveAssemblyReference.cache
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\obj\Release\SeleniumExtensions.dll
+C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\obj\Release\SeleniumExtensions.pdb

@@ -6,7 +6,7 @@ namespace POM
 {
     public abstract class BasePage
     {
-        private IWebDriver browser;
+        protected IWebDriver browser;
 
         public BasePage()
         {

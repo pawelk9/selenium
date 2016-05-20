@@ -49,22 +49,27 @@ namespace SeleniumExtensions
             Driver.Browser.Manage().Timeouts().ImplicitlyWait(new TimeSpan(0, 0, seconds));
         }
 
-        public static IWebElement FindElementWait(this IWebDriver driver, By by, int timeoutInSeconds)
+        public static IWebElement IsElementVisible(this IWebDriver driver, By by, int timeoutInSeconds = 0)
         {
-            if (timeoutInSeconds > 0)
-            {
-                return BrowserWait.Until(drv => drv.FindElement(by));
-            }
-            return driver.FindElement(by);
+            return BrowserWait.Until(ExpectedConditions.ElementIsVisible(by));
         }
 
-        public static ReadOnlyCollection<IWebElement> FindElementsWait(this IWebDriver driver, By by, int timeoutInSeconds)
+        public static IWebElement FindElementWait(this IWebDriver driver, By by, int timeoutInSeconds = 0)
         {
             if (timeoutInSeconds > 0)
             {
-                return BrowserWait.Until(drv => (drv.FindElements(by).Count > 0) ? drv.FindElements(by) : null);
+                BrowserWait.Timeout = TimeSpan.FromSeconds(timeoutInSeconds);
             }
-            return driver.FindElements(by);
+            return BrowserWait.Until(drv => drv.FindElement(by));
+        }
+
+        public static ReadOnlyCollection<IWebElement> FindElementsWait(this IWebDriver driver, By by, int timeoutInSeconds = 0)
+        {
+            if (timeoutInSeconds > 0)
+            {
+                BrowserWait.Timeout = TimeSpan.FromSeconds(timeoutInSeconds);
+            }
+            return BrowserWait.Until(drv => (drv.FindElements(by).Count > 0) ? drv.FindElements(by) : null);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 using SeleniumExtensions;
 
 namespace POM.Pages
@@ -9,7 +10,7 @@ namespace POM.Pages
         {
             get
             {
-                return browser.FindElement(By.Name("UserName"));
+                return browser.FindElementWait(By.Name("Dupa"), 5);
             }
         }
 

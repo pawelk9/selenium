@@ -1,28 +1,24 @@
-2016-05-20 13:47:14,218 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > Common.LoggerHelper.InfoAll ] - INFO - Start Firefox browser
-2016-05-20 13:47:18,423 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.DriverWait.SetPageLoadTimeout ] - DEBUG - Page load timeout set to: 30
-2016-05-20 13:47:18,444 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.DriverWait.Init ] - DEBUG - WebDriverWait set to: 30
-2016-05-20 13:47:18,447 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.Driver.MaximizeWindow ] - DEBUG - Maximize window
-2016-05-20 13:47:18,516 [ Worker#STA_NP ] [ SeleniumTests.TestBase.SetUp > SeleniumExtensions.Driver.DeleteAllCookies ] - DEBUG - Delete all cookies
-2016-05-20 13:47:18,593 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.Navigate > Common.LoggerHelper.InfoAll ] - INFO - Navigate to 'http://executeautomation.com/demosite/Login.html'
-2016-05-20 13:47:48,672 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StopBrowser > Common.LoggerHelper.InfoAll ] - INFO - Close browser
-2016-05-20 13:47:50,241 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - INFO - Test status: Failed
-2016-05-20 13:47:50,243 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - ERROR - Stacktrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+2016-05-20 15:03:13,466 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > Common.LoggerHelper.InfoAll ] - INFO - Start Firefox browser
+2016-05-20 15:03:17,603 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.DriverWait.SetPageLoadTimeout ] - DEBUG - Page load timeout set to: 30
+2016-05-20 15:03:17,625 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.DriverWait.Init ] - DEBUG - WebDriverWait set to: 30
+2016-05-20 15:03:17,628 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.Driver.MaximizeWindow ] - DEBUG - Maximize window
+2016-05-20 15:03:17,679 [ Worker#STA_NP ] [ SeleniumTests.TestBase.SetUp > SeleniumExtensions.Driver.DeleteAllCookies ] - DEBUG - Delete all cookies
+2016-05-20 15:03:17,753 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.Navigate > Common.LoggerHelper.InfoAll ] - INFO - Navigate to 'http://executeautomation.com/demosite/Login.html'
+2016-05-20 15:03:34,522 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StopBrowser > Common.LoggerHelper.InfoAll ] - INFO - Close browser
+2016-05-20 15:03:36,084 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - INFO - Test status: Failed
+2016-05-20 15:03:36,086 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - ERROR - Stacktrace:    at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at SeleniumExtensions.DriverWait.FindElementWait(IWebDriver driver, By by, Int32 timeoutInSeconds) in C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\DriverWait.cs:line 63
+   at POM.Pages.LoginPageElementMap.get_UserNameTextBox() in C:\Users\Pawel\Desktop\selenium\POM\Pages\LoginPageElementMap.cs:line 13
+   at POM.Pages.LoginPage.Login(String username, String password) in C:\Users\Pawel\Desktop\selenium\POM\Pages\LoginPage.cs:line 7
+   at SeleniumTests.SeleniumTest.DemoTest() in C:\Users\Pawel\Desktop\selenium\Selenium\SeleniumTest.cs:line 28
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
    at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
-   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)
-   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)
-   at SeleniumExtensions.Driver.Navigate(String url) in C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\Driver.cs:line 74
-   at SeleniumTests.SeleniumTest.DemoTest() in C:\Users\Pawel\Desktop\selenium\Selenium\SeleniumTest.cs:line 25
-2016-05-20 13:47:50,260 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > Common.LoggerHelper.InfoAll ] - INFO - Start Firefox browser
-2016-05-20 13:47:52,932 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.DriverWait.SetPageLoadTimeout ] - DEBUG - Page load timeout set to: 30
-2016-05-20 13:47:52,971 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.DriverWait.Init ] - DEBUG - WebDriverWait set to: 30
-2016-05-20 13:47:52,976 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StartBrowser > SeleniumExtensions.Driver.MaximizeWindow ] - DEBUG - Maximize window
-2016-05-20 13:47:53,047 [ Worker#STA_NP ] [ SeleniumTests.TestBase.SetUp > SeleniumExtensions.Driver.DeleteAllCookies ] - DEBUG - Delete all cookies
-2016-05-20 13:47:53,089 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.Navigate > Common.LoggerHelper.InfoAll ] - INFO - Navigate to 'http://executeautomation.com/demosite/Login.html'
-2016-05-20 13:48:23,121 [ Worker#STA_NP ] [ SeleniumExtensions.Driver.StopBrowser > Common.LoggerHelper.InfoAll ] - INFO - Close browser
-2016-05-20 13:48:24,692 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - INFO - Test status: Failed
-2016-05-20 13:48:24,693 [ Worker#STA_NP ] [ SeleniumTests.TestBase.TearDown > SeleniumTests.TestHelper.WriteTestOutcome ] - ERROR - Stacktrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
-   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
-   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)
-   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)
-   at SeleniumExtensions.Driver.Navigate(String url) in C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\Driver.cs:line 74
-   at SeleniumTests.SeleniumTest.DemoTest2() in C:\Users\Pawel\Desktop\selenium\Selenium\SeleniumTest.cs:line 37
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByName(String name)
+   at OpenQA.Selenium.By.<>c__DisplayClassa.<Name>b__8(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at SeleniumExtensions.DriverWait.<>c__DisplayClass9_0.<FindElementWait>b__0(IWebDriver drv) in C:\Users\Pawel\Desktop\selenium\SeleniumExtensions\DriverWait.cs:line 63
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)

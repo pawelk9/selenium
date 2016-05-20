@@ -10,6 +10,7 @@ namespace SeleniumTests
         public static void WriteTestOutcome()
         {
             var status = TestContext.CurrentContext.Result.Outcome.Status;
+            var message = TestContext.CurrentContext.Result.Message;
             var stacktrace = string.IsNullOrEmpty(TestContext.CurrentContext.Result.StackTrace) ? "" : TestContext.CurrentContext.Result.StackTrace;
 
             LogStatus htmlStatus;
@@ -33,13 +34,19 @@ namespace SeleniumTests
             }
 
             LoggerHelper.Logger.InfoFormat("Test status: {0}", status);
-            HtmlReport.AddStep(htmlStatus, string.Format("Test status: {0}", status.ToString()));
 
             if (!string.IsNullOrEmpty(stacktrace))
             {
                 LoggerHelper.Logger.ErrorFormat("Stacktrace: {0}", stacktrace);
-                HtmlReport.AddStep(LogStatus.Error, string.Format("Stacktrace: {0}", stacktrace));
+                HtmlReport.AddStep(LogStatus.Warning, string.Format("Stacktrace: {0}", stacktrace));
             }
+
+            if (message != null)
+            {
+                HtmlReport.AddStep(LogStatus.Warning, string.Format("Message: {0}", message));
+            }
+
+            HtmlReport.AddStep(htmlStatus, string.Format("Test status: {0}", status.ToString()));
         }
     }
 }

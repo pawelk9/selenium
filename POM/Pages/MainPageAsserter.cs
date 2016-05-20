@@ -6,7 +6,7 @@ namespace POM.Pages
     {
         public static void CheckForm(this MainPage page, string expected)
         {
-            Assert.IsTrue(page.Map.FirstNameTextBox.GetAttribute("value").Contains(expected), "Fail");
+            Assert.IsTrue(page.Map.FirstNameTextBox.GetAttribute("value").Contains(expected), "Form value does not match");
         }
     }
 }

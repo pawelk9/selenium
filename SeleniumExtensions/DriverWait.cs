@@ -49,6 +49,37 @@ namespace SeleniumExtensions
             Driver.Browser.Manage().Timeouts().ImplicitlyWait(new TimeSpan(0, 0, seconds));
         }
 
+        public static void WaitForPageToLoad(this IWebDriver driver)
+        {
+            IJavaScriptExecutor javascript = driver as IJavaScriptExecutor;
+            if (javascript == null)
+                throw new ArgumentException("driver", "Driver must support javascript execution");
+
+            BrowserWait.Until((d) =>
+            {
+                try
+                {
+                    string readyState = javascript.ExecuteScript(
+                    "if (document.readyState) return document.readyState;").ToString();
+                    return readyState.ToLower() == "complete";
+                }
+                catch (InvalidOperationException e)
+                {
+                    //Window is no longer available
+                    return e.Message.ToLower().Contains("unable to get browser");
+                }
+                catch (WebDriverException e)
+                {
+                    //Browser is no longer available
+                    return e.Message.ToLower().Contains("unable to connect");
+                }
+                catch (Exception)
+                {
+                    return false;
+                }
+            });
+        }
+
         public static IWebElement IsElementVisible(this IWebDriver driver, By by, int timeoutInSeconds = 0)
         {
             return BrowserWait.Until(ExpectedConditions.ElementIsVisible(by));

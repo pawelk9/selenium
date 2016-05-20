@@ -35,8 +35,8 @@ namespace SeleniumTests
 
             if (!string.IsNullOrEmpty(stacktrace))
             {
-                LoggerHelper.Logger.ErrorFormat("Stacktrace: {0}", stacktrace);
-                HtmlReport.AddStep(LogStatus.Warning, string.Format("Stacktrace: {0}", stacktrace));
+                LoggerHelper.Logger.ErrorFormat("Stack trace: {0}", stacktrace);
+                HtmlReport.AddStep(LogStatus.Warning, string.Format("Stack trace: {0}", stacktrace));
             }
 
             if (message != null)
@@ -46,7 +46,7 @@ namespace SeleniumTests
             }
 
             LoggerHelper.Logger.InfoFormat("Test status: {0}", status);
-            HtmlReport.AddStep(htmlStatus, string.Format("Test status: {0}", status.ToString()));
+            HtmlReport.AddStep(htmlStatus, string.Format("Test status: {0}", status));
         }
     }
 }

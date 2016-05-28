@@ -1,6 +1,4 @@
-﻿using Common;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
+﻿using OpenQA.Selenium;
 using SeleniumExtensions;
 
 namespace POM.Pages

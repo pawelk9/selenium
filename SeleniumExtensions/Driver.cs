@@ -2,6 +2,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.IE;
 using System;
 using System.Drawing.Imaging;
 
@@ -38,6 +39,7 @@ namespace SeleniumExtensions
                     Browser = new FirefoxDriver();
                     break;
                 case BrowserType.InternetExplorer:
+                    Browser = new InternetExplorerDriver();
                     break;
                 case BrowserType.Chrome:
                     Browser = new ChromeDriver();
